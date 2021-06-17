@@ -189,6 +189,7 @@
   border-radius: 3px;
   outline:none;
   appearance: none;
+  resize: none;
 }
 
 .inputspace:focus {
@@ -344,9 +345,8 @@
   border-bottom: 3px solid #01bfbd;
 }
 
-.remarkspace {
+.remarkinput {
   height: 100px;
-  resize: none;
 }
 
 .submitbutton {
