@@ -187,11 +187,12 @@
   background-color: #fbfbfb;
   border: 1px solid #d9d9d9;
   border-radius: 3px;
-  outline:.5px #01bfbccb;
 }
 
 .inputspace:focus {
-  border: 1px solid #01bfbcc9;
+  border: 1px solid #01a6a381;
+  outline:none;
+  box-shadow:0 0 0 1px #01a6a336;
 }
 
 .alert {
