@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="./assets/css/base.css">
     <link rel="stylesheet" href="./assets/css/style.css">
   </head>
-  <body>
+  <body class="body">
     <section class="wrapper">
       <div class="inner">
         <div class="main-content">
@@ -27,9 +27,45 @@
             <p class="is-defaultText">アカウント情報</p>
           </div>
           <form class="form-content" action="#" method="POST">
-            <!--
-              ここに続きのHTMLを書いていきましょう
-            -->
+            <div class="namebox">
+              <div class="name is-halfWidth">
+                <label class="labeltext">名字
+                  <span class="alert">※</span>
+                </label>
+                <input type="text" name="lastname" class="inputspace">
+              </div>
+              <div class="name is-halfWidth">
+                <label class="labeltext">名前
+                  <span class="alert">※</span>
+                </label>
+                <input type="text" name="firstname" class="inputspace">
+              </div>
+            </div>
+            <div class="genderbox">
+              <label class="labeltext">性別</label>
+              <div class="gendercontents">
+                <label class="gendercontent">
+                  <input type="radio" name="gender" class="genderinput">
+                  <span>男性</span>
+                </label>
+                <label class="gendercontent">
+                  <input type="radio" name="gender" class="genderinput">
+                  <span>女性</span>
+                </label>
+                <label class="gendercontent">
+                  <input type="radio" name="gender" class="genderinput">
+                  <span>その他</span>
+                </label>
+              </div>
+            </div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
             <p class="agreement">アカウントを作成することにより、<a class="link-color" href>利用規約</a>と<a class="link-color" href>プライバシーポリシー</a>に同意するものとします。</p>
           </form>
         </div>
