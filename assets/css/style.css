@@ -187,11 +187,12 @@
   background-color: #fbfbfb;
   border: 1px solid #d9d9d9;
   border-radius: 3px;
+  outline:none;
+  appearance: none;
 }
 
 .inputspace:focus {
   border: 1px solid #01a6a381;
-  outline:none;
   box-shadow:0 0 0 1px #01a6a336;
 }
 
@@ -269,6 +270,17 @@
 
 .birthplaceinput {
   margin-top: 0;
+  width: 100%;
+  box-sizing: border-box;
+  height: 36px;
+  padding: 5px;
+  color: #545658;
+  font-size: 13px;
+  line-height: 2;
+  background-color: #fbfbfb;
+  border: 1px solid #d9d9d9;
+  border-radius: 3px;
+  outline: none;
 }
 
 .birthplaceinput > option {
@@ -319,7 +331,7 @@
   border: 1px solid #d9d9d9;
 }
 
-.courseoption > input:checked + .courseoption > label::after {
+.courseoption > input:checked + label::after {
   content: '';
   position: absolute;
   left: 6px;
