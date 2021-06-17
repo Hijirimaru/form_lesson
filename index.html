@@ -32,16 +32,16 @@
                 <label class="labeltext">名字
                   <span class="alert">※</span>
                 </label>
-                <input type="text" name="lastname" class="inputspace">
+                <input type="text" name="lastname" class="inputspace" required>
               </div>
               <div class="name is-halfWidth">
                 <label class="labeltext">名前
                   <span class="alert">※</span>
                 </label>
-                <input type="text" name="firstname" class="inputspace">
+                <input type="text" name="firstname" class="inputspace" required>
               </div>
             </div>
-            <div class="genderbox">
+            <div class="contentsspace">
               <label class="labeltext">性別</label>
               <div class="gendercontents">
                 <label class="gendercontent">
@@ -58,12 +58,57 @@
                 </label>
               </div>
             </div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
+            <div class="contentsspace is-halfWidth">
+              <label class="labeltext">出身</label>
+              <div class="selectspace">
+                <select name="birthplace" id="birthplace" class="inputspace birthplaceinput selecter">
+                  <option value="東京">東京</option>
+                  <option value="千葉">千葉</option>
+                  <option value="埼玉">埼玉</option>
+                  <option value="神奈川">神奈川</option>
+                </select>
+              </div>
+            </div>
+            <div class="contentsspace">
+              <label class="labeltext">
+                Eメール
+                <span class="alert">※</span>
+              </label>
+              <input type="email" name="email" class="inputspace" placeholder="ex) hoge@example.com" required>
+            </div>
+            <div class="contentsspace">
+              <label class="labeltext">電話番号</label>
+              <input type="tell" name="tell" class="inputspace" placeholder="ex) 09012345678">
+            </div>
+            <div class="contentsspace">
+              <label class="labeltext">
+                パスワード
+                <span class="alert">※</span>
+              </label>
+              <input type="password" name="password" class="inputspace" required>
+            </div>
+            <div class="contentsspace">
+              <label class="labeltext">
+                パスワード(確認用)
+                <span class="alert">※</span>
+              </label>
+              <input type="password" name="password" class="inputspace" required>
+            </div>
+            <div class="contentsspace">
+              <label class="labeltext">希望コース</label>
+              <div class="courseoption">
+                <input type="checkbox">
+                <label>フロントエンド</label>
+              </div>
+              <div class="courseoption">
+                <input type="checkbox">
+                <label>バックエンド</label>
+              </div>
+              <div class="courseoption">
+                <input type="checkbox">
+                <label>アプリ</label>
+              </div>
+            </div>
             <div></div>
             <div></div>
             <p class="agreement">アカウントを作成することにより、<a class="link-color" href>利用規約</a>と<a class="link-color" href>プライバシーポリシー</a>に同意するものとします。</p>
