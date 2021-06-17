@@ -330,3 +330,10 @@
   height: 100px;
   resize: none;
 }
+
+.submitbutton {
+  padding: 13px;
+  background-color: #01bfbd;
+  color: #fff;
+  border: 1px solid #01bfbd;
+}
